@@ -12,6 +12,17 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundColor: {
+        silver: "#F5F7FA",
+        primary: "#43A046",
+      },
+      borderColor: {
+        primary: "#43A046",
+      },
+      textColor: {
+        silver: "#F5F7FA",
+        primary: "#43A046",
+      },
     },
   },
   plugins: [],

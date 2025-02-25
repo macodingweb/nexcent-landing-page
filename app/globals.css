@@ -2,20 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Golos Text";
+  src: url(../fonts/GolosText-Regular.ttf);
+  font-weight: 400;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "Golos Text";
+  src: url(../fonts/GolosText-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url(../fonts/GolosText-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url(../fonts/GolosText-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url(../fonts/GolosText-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url(../fonts/GolosText-Black.ttf);
+  font-weight: 900;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden !important;
 }
